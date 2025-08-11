@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta name="description" content="A simple html document with a meta description tag.">
+            <meta name="keywords" content="HTML, meta tags, examples">
+            <meta name="author" content="Name">
+            <title>Assignment Week 2</title>
+        </head>
+        <body>
+            <header>
+                <h1>HTML Week Two assignment</h1>
+                <p>This Page Uses lists, Tables and Multimedia Elements</p>
+            </header>
+            <h2>Features of the Page</h2>
+            <ul>
+                <li>Lists</li>
+                <li>Tables</li>
+                <li>Multimedia
+                    <ol type="i">
+                        <li>Audio</li>
+                        <li>Video</li>
+                        <li>Images</li>
+                    </ol>
+                </li>
+            </ul>
+
+            <h2>Tables</h2>
+            <table border="1">
+                <caption>Joseph's Monthly Expenditure</caption>
+                <thead>
+                    <tr>
+                        <th>Expenditure</th>
+                        <th>Expenses</th>
+                        <th>Balance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Transport</td>
+                        <td>#50, 000</td>
+                        <td>#250, 000</td>
+                    </tr>
+                    <tr>
+                        <td>Food
+                            <ol type="i">
+                                <li>Semo</li>
+                                <li>Egusi</li>
+                                <li>Fruits</li>
+                                <li>Bokku</li>
+                                <li>Garri</li>
+                            </ol>
+                        </td>
+                        <td>#70, 000</td>
+                        <td>#180, 000</td>
+                    </tr>
+                    <tr>
+                        <td>Clothing</td>
+                        <td>#50, 000</td>
+                        <td>#130, 000</td>
+                    </tr>
+                    <tr>
+                        <td>Miscellanous</td>
+                        <td>#30, 000</td>
+                        <td>#100, 000</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Multimedia</h2>
+            <h3>Image</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRguq_GZqE4YMbrjLWblpKGi5_CO-RE8JfOrNQ9Zbn2NUOjIn94s6Netz1G&s=10" alt="Flower" width="300" height="200">
+
+            <h3>Audio</h3>
+            <Audio autoplay>
+                <source src="https://www.boomplay.com/songs/176230766" type="audio">
+            </Audio>
+
+            <h3>Video</h3>
+            <Video controls>
+                <Source src="https://www.youtube.com/watch?v=Y1jTEyb3wiI" type="video/mp4">
+            </Video>
+
+            <h2>Contact Form</h2>
+            <Form action="Location" method="post" autocomplete="on">
+            <Fieldset>
+                <legend>Personal Information</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="name@example.com" required autocomplete="email">
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+1-234-567-890" required autocomplete="tel">
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Account Details</legend>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Choose a username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" minlength="9" placeholder="Create a password">
+
+                <label for="readonly-field">Referral Code:</label>
+                <input type="text" id="readonly-field" name="referral" value="PLP2025" readonly>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="ng">Nigeria</option>
+                    <option value="kn">Kenya</option>
+                    <option value="uk">United Kingdom</option>
+                </select>
+        </body>
+        <Footer>
+            <p>&copy; 2025 Timothy. All Rights Reserved</p>
+        </Footer>
+    </html>
